@@ -64,7 +64,7 @@ const fetch = async () => {
 
 // Usage example
 
-app.get("/get-intershala", (req, res) => {
+app.get("/get-internshala", (req, res) => {
   fetch().then((job) => {
     res.status(200).send(job);
   });
